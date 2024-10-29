@@ -29,5 +29,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    //hola
+
+    public class Nota {
+        private String texto;
+
+        public Nota (String texto) {
+            this.texto = texto;
+        }
+    }
 }
